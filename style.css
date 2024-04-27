@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding:0;
+}
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  background-color:rgb(171, 234, 234);
+}
+.box{
+  width: 23%;
+  height: 420px;
+  display: flex;
+  margin-top:15px;
+  background-color: white;
+  /* border: 2px solid black; */
+  border : 2px solid rgb(104, 228, 232);
+  border-radius:10px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0px 15px;
+}
+
+.box1-image{
+  height: 350px;
+  width: 300px;
+  background-size: cover; 
+  margin-right: 1rem;
+  margin-left:1rem;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+}
+
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.box-content p{
+  color: #007185;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  max-width: 60%;
+}
+
+.subscribe-panel {
+  max-width: 40%;
+  text-align: right;
+}
+
+.subscribe-panel h4 {
+  margin-bottom: 10px;
+}
+
+.subscribe-panel form {
+  display: flex;
+}
+
+.subscribe-panel input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.subscribe-panel button {
+  background-color: #fff;
+  color: #333;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar{
+  background-color: #4bbdd1;
+  display:flex;
+  height: 50px;
+  align-items: center;
+  font-size: 1rem;
+}
+li{
+  color: white;
+}
+.home{
+  margin-left:30px;
+}
+button{
+  background-color: whitesmoke;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-left:80rem;
+  padding: 0.5rem;
+}
+button li{
+  color: black;
+}
+
+.page{
+  
+  border: 2px solid black;
+  padding:1rem;
+  width:30%;
+  display:flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 3rem;
+  margin-top: 10rem;
+  margin-left: 30rem;
+  border-radius: 10px;
+  border-color: #4c98f5;
+}
+
+.btn{
+  margin-left: 10px;
+}
+.shop-section h2{
+  font-size: 1rem;
+  margin-top:30px;
+  text-align: center;
+}
+/* .shop-section p{
+  padding:1rem;
+  text-align:center;
+  text-wrap:initial;
+} */
+
+#btn2:hover{
+  background-color: rgb(193, 237, 241);
+  
+}
+#btn1 a:hover{
+  color: white;
+}
+.user-logo{
+  border:2px solid rgb(220, 232, 235);
+  background-color: #fff;
+  border-radius:40%;
+  padding: 0.5rem;
+  margin:20px;
+}
+
+.access-btn{
+  padding: 1rem;
+  background-color: rgb(41, 118, 232);
+  margin-left:40rem;
+  color: white;
+  border-radius: 20px;
+  border-color: #4c98f5;
+}
+.access-btn:hover{
+  background-color: green;
+  color: white;
+  border-color: black;
+}
+
+.sidebar{
+  height: 800px;
+  width: 200px;
+  background-color: #4bbdd1;
+  display:flex;
+  /* align-items: center; */
+
+}
+
+
+
+
+
+.container{
+  height: 600px;
+  width:1100px;
+  border: 2px solid rgb(212, 210, 210);
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background-color:#ffffff;
+  margin-left: 5rem;
+}
+.image{
+  height: 500px;
+  width: 500px;
+  border:2px solid rgb(212, 210, 210);
+  border-radius: 8px;
+}
+.content{
+  height: 500px;
+  width: 400px;
+  font-size:1.5rem;
+  margin-left: 10px;
+    
+  /* border: 2px solid black; */
+}
+.type{
+  /* margin-left: 8rem; */
+  font-size: 2rem;
+  border-bottom: 2px solid black
+}
+.book-btn{
+  /* width: 50px; */
+  padding: 1rem;
+  font-color:white;
+  background-color: #5ea3e4;
+  border-color: #2525e9;
+  border-radius : 10px;
+  width:100%;
+}
+.book-btn:hover{
+  background-color: #000000;
+  color:white;
+  border-color: #10a810;
+}
+#description{
+  font-size: 1rem;
+}
+.inputbox{
+  size: 1rem;
+}
+
